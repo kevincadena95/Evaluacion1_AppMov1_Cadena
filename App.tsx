@@ -15,10 +15,10 @@ import { Clasificar } from './src/screens/Clasificar';
 
 
 
-export const App = () => {
+const App = () => {
   return(
     <SafeAreaView style={{flex: 1}}>
-    {/* <Clasificar/> */}
+    <Clasificar/>
     {/* <Interfaz1/> */}
    {/*  <Interfaz2/> */}
     {/* {<Interfaz3/>} */}
@@ -27,7 +27,7 @@ export const App = () => {
     {/* <Interfaz6/> */}
     {/* <Interfaz7/> */}
     {/* <Interfaz8/> */}
-    <Interfaz9/>
+    {/* <Interfaz9/> */}
     </SafeAreaView>
     
   )
